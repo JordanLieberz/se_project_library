@@ -56,11 +56,11 @@
       </header>
 
       <main class="content">
-        <section id="staff-picks" class="staff staff__card">
+        <section id="staff-picks" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
-          <ul>
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -142,10 +142,20 @@
                 <div
                   class="event-info__icon event-info__icon_type_calendar"
                 ></div>
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calender Icon"
+                  class="calender-logo"
+                />
                 <p class="event-info__text">Mon, January 12</p>
               </div>
               <div class="event-info__item">
                 <div class="event-info__icon event-info__icon_type_pin"></div>
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin logo"
+                  class="pin-logo"
+                />
                 <p class="event-info__text">
                   Practicum Library Conference Hall & Online
                 </p>
@@ -185,20 +195,20 @@
               />
             </div>
             <div class="person person_name_cannon">
-              <p class="person__caption">Annie Jump Cannon</p>
               <img
                 class="person__image person__image_size_l"
                 src="/images/person_cannon.png"
                 alt="Annie Jump Cannon"
               />
+              <p class="person__caption">Annie Jump Cannon</p>
             </div>
             <div class="person person_name_mitchell">
-              <p class="person__caption">Maria Mitchell</p>
               <img
                 class="person__image person__image_size_l"
                 src="/images/person_mitchell.png"
                 alt="Maria Mitchell"
               />
+              <p class="person__caption">Maria Mitchell</p>
             </div>
             <div class="person person_name_tarter">
               <p class="person__caption">Jill Tarter</p>
@@ -287,12 +297,39 @@
               the American Geophysical Union.
             </p>
           </div>
-          <!-- <div class="about__circle"></div> -->
+          <div class="about__circle"></div>
         </section>
       </main>
       <footer id="footer" class="footer">
         <!-- The time to mark up the footer has come, you can do it 💪 -->
+        <div class="footer__columns">
+          <div class="footer__column">
+          <img class="footer__logo" src="images/logo_white.png" alt="Practicum
+          logo">
+          </div>
+          <div class="footer__column footer__column_content_hours" >
+           <h2 class="footer__heading">Hours</h2>
+           <ul class="footer__list">
+           <li class="footer__list-item">Weekdays:9am - 8pm</li>
+          <li class="footer__list-item">Weekends:10am - 6pmpm</li>
+          <div class="footer__column footer__column_content_social">
+          <h2 class="footer__heading">Social Media</h2>
+          <ul class="footer__list">
+          <li class="footer__list-item">
+<a class="footer__column-link" href="#">
+  <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook Logo"/>
+Facebook</a>
+<li class="footer__list-item">
+  <a class="footer__column-link" href="#">
+    <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram Logo"/>
+  Instagram</a>
+  </li>
+  <ul>
+  </div>
+</div>
+<p class="footer__column-copyrights">&copy; 2022 Jordan Lieberz</p>
       </footer>
     </div>
   </body>
 </html>
+
