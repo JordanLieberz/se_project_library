@@ -25,7 +25,8 @@
 }
 
 .logo {
-  margin: 196px x 60px;
+  width: 196px;
+  height: 60px;
 }
 
 .nav__links {
@@ -446,7 +447,8 @@
 }
 
 .footer__logo {
-  size: 116x 21px;
+  width: 116px;
+  height: 21px;
 }
 
 .footer__list {
