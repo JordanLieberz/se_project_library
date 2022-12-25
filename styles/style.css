@@ -1,6 +1,5 @@
 .page {
   min-width: 1100px;
-  max-width: 1600px;
   margin: 0 auto;
   text-align: center;
   font-style: Helvetica Neue;
@@ -9,7 +8,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-
 .header {
   height: 100vh;
   min-height: 720px;
@@ -242,7 +240,7 @@
 }
 
 .events__description {
-  margin: 40px 0 60px;
+  margin: 60px 0 40px;
 }
 
 .events__more {
