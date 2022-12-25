@@ -1,5 +1,6 @@
 .page {
   min-width: 1100px;
+  max-width: 1600px;
   margin: 0 auto;
   text-align: center;
   font-style: Helvetica Neue;
@@ -23,6 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 .logo {
