@@ -437,7 +437,6 @@
   display: flex;
   position: relative;
   min-height: 224px;
-  border: 1px solid blue;
 }
 
 .footer__column_content_hours {
@@ -489,6 +488,5 @@
 }
 .footer__copyright {
   position: relative;
-  left: -468px;
-  bottom: 60px;
+  text-align: left;
 }
