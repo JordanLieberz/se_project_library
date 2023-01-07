@@ -146,6 +146,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  width: 360px;
+  height: 420px;
 }
 
 .card__title {
@@ -397,8 +399,12 @@
 .about__paragraph {
   position: relative;
   z-index: 1;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
-
+.about__paragraph:last-of-type {
+  margin-bottom: 0px;
+}
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -450,8 +456,9 @@
 }
 
 .footer__column-heading {
-  font-size: 16px;
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -471,4 +478,5 @@
   margin-right: 10px;
 }
 .footer__copyright {
+  margin: 0px;
 }
